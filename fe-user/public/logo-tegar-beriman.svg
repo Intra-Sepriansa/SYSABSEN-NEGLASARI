@@ -1,0 +1,54 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e8f43"/>
+      <stop offset="100%" stop-color="#1b4d9c"/>
+    </linearGradient>
+    <linearGradient id="bandGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f4d03f"/>
+      <stop offset="50%" stop-color="#f1c40f"/>
+      <stop offset="100%" stop-color="#e67e22"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#f2f5f9"/>
+  <g transform="translate(20,12)">
+    <path
+      d="M40 0 L80 18 V54 C80 77 64 96 40 104 C16 96 0 77 0 54 V18 Z"
+      fill="url(#shieldGradient)"
+      stroke="#ffffff"
+      stroke-width="3"
+    />
+    <path
+      d="M4 44 H76 L70 58 H10 Z"
+      fill="url(#bandGradient)"
+      stroke="#ffffff"
+      stroke-width="2"
+    />
+    <circle cx="40" cy="36" r="10" fill="#ffffff" />
+    <path
+      d="M40 24 L42.8 32.5 H51.8 L44.5 37.8 L47.2 46.2 L40 41 L32.8 46.2 L35.5 37.8 L28.2 32.5 H37.2 Z"
+      fill="#0e8f43"
+    />
+    <path
+      d="M22 66 C26 72 32 76 40 78 C48 76 54 72 58 66"
+      stroke="#ffffff"
+      stroke-width="3"
+      stroke-linecap="round"
+      fill="none"
+    />
+    <path
+      d="M18 26 C21 18 27 12 36 9"
+      stroke="#ffffff"
+      stroke-width="2"
+      stroke-linecap="round"
+      fill="none"
+    />
+    <path
+      d="M62 26 C59 18 53 12 44 9"
+      stroke="#ffffff"
+      stroke-width="2"
+      stroke-linecap="round"
+      fill="none"
+    />
+  </g>
+</svg>
