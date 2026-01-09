@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="backend/public/images/jasinga.jpg" alt="Logo Kelurahan Neglasari" width="120" height="120">
+  <img src="backend/public/jasinga.jpg" alt="Logo Kelurahan Neglasari" width="120" height="120">
 </p>
 
 <h1 align="center">SysAbsensi - Kelurahan Neglasari</h1>
