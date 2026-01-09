@@ -69,7 +69,7 @@ php artisan serve
 
 | Type   | Credential / Token              |
 |--------|---------------------------------|
-| Admin  | `admin@sysabsen.com / password` |
+| Admin  |                                 |
 | Device | Generated token printed after seeding |
 
 Run `php artisan db:seed` again if you need to regenerate the sample device token.
