@@ -89,9 +89,3 @@ The kiosk interface is available at `http://your-app.test/kiosk`. Append `?theme
 - Run `php artisan test` for backend tests.
 - Use Filament for manual QA on admin features (`php artisan serve` -> `/admin`).
 
-## Deployment Checklist
-
-1. Configure queue workers for broadcasting and photo processing if you switch to queued broadcasting.
-2. Ensure `storage:link` is executed on the server.
-3. Set up HTTPS so the kiosk can access webcam streams (browser requirement).
-4. Update `config/cors.php` if the kiosk will be embedded in a different origin.
